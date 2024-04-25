@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>Interactive rating component</title>
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="secondary-container rating-component">
+      <div class="icon">
+        <img class="star" src="./images/icon-star.svg" alt="an image of an orange star">
+      </div>
+      <form action="#">
+        <h1>How did we do?</h1>
+
+        <p>Please let us know how we did with your support request. All feedback is appreciated
+          to help us improve our offering!</p>
+
+        <div class="rating-values-container">
+          <input type="radio" value="1" name="radio" id="radio">
+          <label for="radio" class="rating-values">1</label>
+          <input type="radio" value="2" name="radio" id="radio">
+          <label for="radio" class="rating-values">2</label>
+          <input type="radio" value="3" name="radio" id="radio">
+          <label for="radio" class="rating-values">3</label>
+          <input type="radio" value="4" name="radio" id="radio">
+          <label for="radio" class="rating-values">4</label>
+          <input type="radio" value="5" name="radio" id="radio">
+          <label for="radio" class="rating-values">5</label>
+        </div>
+
+        <button class="submit" type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div class="secondary-container thank-you-state">
+      <div class="thank-you-image">
+        <img src="./images/illustration-thank-you.svg"
+          alt="a photo of a phone printing a receipt with a credit card next to it">
+      </div>
+
+      <p>You selected <span class="selection">1</span> out of 5</p>
+
+      <h1>Thank You!</h1>
+
+      <p>We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!</p>
+
+    </div>
+  </div>
+</body>
+
+</html>
