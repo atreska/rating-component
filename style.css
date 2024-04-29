@@ -129,3 +129,11 @@ input {
     color: var(--orange);
     cursor: pointer;
 }
+
+.thank-you-state {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
