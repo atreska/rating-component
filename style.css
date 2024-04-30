@@ -38,17 +38,14 @@ body {
     display: flex;
     flex-direction: column;
     border-radius: 1em;
-
-}
-
-.icon {
-    margin-bottom: .6em;
+    max-width: 370px;
 }
 
 .star {
     background-color: var(--darkBlue);
     padding: 1em;
-    border-radius: 100px
+    border-radius: 100px;
+    margin-bottom: .6em;
 }
 
 .rating-form h1 {
@@ -63,7 +60,6 @@ body {
 .rating-form h1,
 .rating-form p {
     width: 100%;
-    border: 1px solid red;
 }
 
 h1 {
@@ -135,5 +131,28 @@ input {
     justify-content: center;
     align-items: center;
     text-align: center;
+    /* gap: 1em; */
 
+}
+
+.thank-you-image {
+    width: 8em;
+    margin: .5em 0 1em 0;
+}
+
+.selection-info {
+    background-color: var(--darkBlue);
+    padding: .2em 1em;
+    border-radius: 100px;
+    color: var(--orange);
+    align-self: center;
+    margin-bottom: 1.4em;
+}
+
+.thank-you-state h1 {
+    margin-bottom: .3em;
+}
+
+.appreciate-paragraph {
+    padding-bottom: .7em;
 }
