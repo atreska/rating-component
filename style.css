@@ -91,7 +91,6 @@ input {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    /* border: 1px solid red; */
 }
 
 .rating-values {
@@ -134,6 +133,20 @@ input {
     display: none;
     padding-top: 2em;
     padding-bottom: 2.1em;
+
+    animation: fadeInThankYouState ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInThankYouState {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .thank-you-image {
