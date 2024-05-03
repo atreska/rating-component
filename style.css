@@ -42,8 +42,8 @@ body {
 }
 
 .star {
-    background-color: var(--darkBlue);
-    padding: 1em;
+    background-color: hsl(213, 19%, 21%);
+    padding: .9em;
     border-radius: 100px;
     margin-bottom: .6em;
 }
