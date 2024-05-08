@@ -24,7 +24,7 @@ function submitRating(e) {
     }
     span.textContent = selectionValue;
     ratingComponent.style.display = 'none';
-    //use below instead of display block while making the thank-you-state visible
+    //used below instead of display block while making the thank-you-state visible
     //to avoid adding extra margin/whitespace
     thankYouState.style.display = 'block flex';
 }
